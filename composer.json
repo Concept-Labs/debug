@@ -1,0 +1,31 @@
+{
+    "name": "concept-labs/debug",
+    "type": "library",
+    "description": "(C)oncept-Labs Arrays API",
+    "keywords": ["php","debug"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viktor Halytskyi",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\Debug\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+        "psr-4": {
+             "Concept\\Debug\\Test\\": "tests/"
+        }
+    },
+    "suggest": {
+        "concept-labs/singularity": "PSR Container. Powerfull aAnd Flexable Dependency Injection pack"
+    }
+}
